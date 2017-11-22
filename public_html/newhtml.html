@@ -3,7 +3,7 @@
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <script src="js/jquery-3.2.1.js"></script>
         <script src="js/popper.js"></script>
         <script src="js/bootstrap.js"></script>
@@ -43,11 +43,13 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-        
-<!--        Navegador inicial-->
+
+        <!--        Navegador inicial-->
 
         <nav class="navbar navbar-light "  style="background-color: #8E236B;">
-            <a class="navbar-brand" href="#" style="color: white">Faust Boutique  </a>
+            <div align="left">
+                <a class="navbar-brand" href="#" style="color: white"  >Faust Boutique  </a>
+                <a class="material-icons" href="http://localhost:8383/web/compra.html" style="color: white">&#xe854;</a></div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -81,124 +83,124 @@
                 </form>
             </div>
         </nav>
-<!--Recpção-->
+        <!--Recpção-->
 
-    
 
-<!--           Formulario -->
-      
-<div class="col-7" >
-    <h4 align="center">Seja bem-vinda(o), iniciaremos sua conta. </h4>
+
+        <!--           Formulario -->
+
+        <div class="col-7" >
+            <h4 align="center">Seja bem-vinda(o), iniciaremos sua conta. </h4>
+            <form>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">E-mail </label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Digite sua Senha">
+                    <small id="emailHelp" class="form-text text-muted">Insira seu E-mail para mantermos nossa comunicação.</small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Senha</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Digite sua Senha">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Confirma Senha</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Digite sua Senha">
+                </div>
+                <div class="form-check">
+
+            </form>
+            <br/>
+            <h4>Identificação pessoal</h4>
+            <form>
+
+                <div class="form-group">
+                    <label for="inputAddress">Nome</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="Primeiro Nome">
+                </div>
+                <div class="form-group">
+                    <label for="inputAddress2">Sobrenome</label>
+                    <input type="text" class="form-control" id="inputAddress2" placeholder="Nome Completo">
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-2">
+                        <label for="inputZip">Insira seu CPF</label>
+                        <input type="text" class="form-control" id="inputZip">
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label for="inputZip">Sexo</label>
+                        <input type="text" class="form-control" id="inputZip">
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label for="inputZip">Nascimento</label>
+                        <input type="text" class="form-control" id="inputZip">
+                    </div>
+
+                    <div class="form-group col-md-2">
+                        <label for="inputZip">Telefone </label>
+                        <input type="text" class="form-control" id="inputZip">
+                    </div>
+                </div>
+        </div>
+
+        <!--  <button type="submit" class="btn btn-primary" style="background-color: #8E236B;">Finalizar</button>-->
+    </form>
+    <br/>
+    <h4>Endereço para Entrega</h4>
     <form>
-  <div class="form-group">
-    <label for="exampleInputEmail1">E-mail </label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Digite sua Senha">
-    <small id="emailHelp" class="form-text text-muted">Insira seu E-mail para mantermos nossa comunicação.</small>
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Senha</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Digite sua Senha">
-  </div>
-         <div class="form-group">
-    <label for="exampleInputPassword1">Confirma Senha</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Digite sua Senha">
-  </div>
-  <div class="form-check">
-   
-</form>
-<br/>
-<h4>Identificação pessoal</h4>
+        <div class="form-row">
+            <div class="col-7">
+                <input type="text" class="form-control" placeholder="Insira sua Cidade">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Seu Estado">
+            </div>
+        </div>
+    </form>
     <form>
-  
-  <div class="form-group">
-    <label for="inputAddress">Nome</label>
-    <input type="text" class="form-control" id="inputAddress" placeholder="Primeiro Nome">
-  </div>
-  <div class="form-group">
-    <label for="inputAddress2">Sobrenome</label>
-    <input type="text" class="form-control" id="inputAddress2" placeholder="Nome Completo">
-  </div>
-  <div class="form-row">
-    <div class="form-group col-md-2">
-      <label for="inputZip">Insira seu CPF</label>
-      <input type="text" class="form-control" id="inputZip">
-    </div>
-    <div class="form-group col-md-2">
-      <label for="inputZip">Sexo</label>
-      <input type="text" class="form-control" id="inputZip">
-    </div>
-        <div class="form-group col-md-2">
-      <label for="inputZip">Nascimento</label>
-      <input type="text" class="form-control" id="inputZip">
-    </div>
-       
-        <div class="form-group col-md-2">
-      <label for="inputZip">Telefone </label>
-      <input type="text" class="form-control" id="inputZip">
-    </div>
-  </div>
-  </div>
- 
-<!--  <button type="submit" class="btn btn-primary" style="background-color: #8E236B;">Finalizar</button>-->
-</form>
-<br/>
-<h4>Endereço para Entrega</h4>
-<form>
-  <div class="form-row">
-    <div class="col-7">
-      <input type="text" class="form-control" placeholder="Insira sua Cidade">
-    </div>
-    <div class="col">
-      <input type="text" class="form-control" placeholder="Seu Estado">
-    </div>
-  </div>
-</form>
-<form>
-  <div class="form-row">
-    <div class="col-7">
-      <input type="text" class="form-control" placeholder="Insira Nome da Rua">
-    </div>
-    <div class="col">
-      <input type="text" class="form-control" placeholder="Número da Casa">
-    </div>
-  </div>
-</form>
-<br/>
-<div align="center">
-<button type="submit" class="btn btn-primary" style="background-color: #8E236B;">Finalizar</button>
+        <div class="form-row">
+            <div class="col-7">
+                <input type="text" class="form-control" placeholder="Insira Nome da Rua">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Número da Casa">
+            </div>
+        </div>
+    </form>
+    <br/>
+    <div align="center">
+        <button type="submit" class="btn btn-primary" style="background-color: #8E236B;">Finalizar</button>
 
-</div>
+    </div>
 </div>
 </div>
 <!--            Rodapé-->
 
-            <!--            <div class="row text-secondary">
-                            Topo
-                        </div>-->
-            
-            
+<!--            <div class="row text-secondary">
+                Topo
+            </div>-->
+
+
 <br/>
 <br/>
-               <div class="container-fluid" style="background-color: #8E236B;">
+<div class="container-fluid" style="background-color: #8E236B;">
 
-           
-            <div class="row">
-                <div class="col" style="color: white"> 
-                    <h4>Departamentos</h4>
-                    <h6> Entregas</h6>
-                    <h6> Compras </h6>
-                    
-                </div>
- 
-                <div class="col" style="color: white"> 
-                    <h4>Atendimento</h4>
-                    <h6> Faça seus pedidos</h6>
-                    <h6> Nosso Telefone:(44) 99107-2571</h6>
-                </div>
-            </div>
 
+    <div class="row">
+        <div class="col" style="color: white"> 
+            <h4>Departamentos</h4>
+            <h6> Entregas</h6>
+            <h6><i class="material-icons" style="color: white">&#xe870;</i> Compras </h6>
 
         </div>
+
+        <div class="col" style="color: white"> 
+            <h4>Atendimento</h4>
+            <h6><i class="material-icons" style="color: white">&#xe8f6;</i> Faça seus pedidos</h6>
+            <h6><i class="material-icons" style="color: white">&#xe0b0;</i> Nosso Telefone:(44) 99107-2571</h6>
+        </div>
+    </div>
+
+
 </div>
-    </body>
+</div>
+</body>
 </html>
